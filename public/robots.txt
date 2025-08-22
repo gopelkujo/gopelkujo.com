@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://gopelkujo.com
+
+# Sitemaps
+Sitemap: https://gopelkujo.com/sitemap.xml
