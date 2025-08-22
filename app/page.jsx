@@ -51,15 +51,6 @@ import GithubIcon from "../src/assets/images/github.svg";
 // Import Stackoverflow images
 import StackoverflowIcon from "../src/assets/images/stackoverflow.png";
 
-export const metadata = {
-  robots: { index: true, follow: false },
-  title: "gopelkujo",
-  description: "my professional journey.",
-  verification: {
-    google: '6drGFjAogw6sco26TtJog-67aejfpo1VFgB68oz_gv4',
-  },
-};
-
 export default function Home() {
   const greetingText = "Hello, nice to meet you. I am Gopel!";
 
