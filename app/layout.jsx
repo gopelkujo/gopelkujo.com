@@ -8,6 +8,15 @@ import gmailIco from "../src/assets/images/gmail.png";
 import Link from "next/link";
 import Image from "next/image";
 
+export const metadata = {
+  robots: { index: true, follow: true },
+  title: "gopelkujo",
+  description: "my professional journey.",
+  verification: {
+    google: '6drGFjAogw6sco26TtJog-67aejfpo1VFgB68oz_gv4',
+  },
+};
+
 export default function RootLayout({ children }) {
   const contacts = [
     {
