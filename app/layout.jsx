@@ -8,12 +8,41 @@ import gmailIco from "../src/assets/images/gmail.png";
 import Link from "next/link";
 import Image from "next/image";
 
+// app/layout.tsx
 export const metadata = {
-  robots: { index: true, follow: true },
-  title: "gopelkujo",
-  description: "my professional journey.",
-  verification: {
-    google: '6drGFjAogw6sco26TtJog-67aejfpo1VFgB68oz_gv4',
+  title: "Gopel Kujo - My Professional Journey",
+  description: "Explore my professional journey, projects, and skills.",
+  keywords: [
+    "Gopel Kujo",
+    "Developer",
+    "Portfolio",
+    "Projects",
+    "Mobile Developer",
+    "Web Developer",
+    "Software Engineer",
+    "AI",
+  ],
+  authors: [{ name: "Gopel Kujo" }],
+  openGraph: {
+    title: "Gopel Kujo",
+    description: "My professional journey and portfolio.",
+    url: "https://gopelkujo.com",
+    siteName: "Gopel Kujo",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Gopel Kujo",
+    description: "My professional journey and portfolio.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+  },
+  alternates: {
+    canonical: "https://gopelkujo.com",
   },
 };
 
