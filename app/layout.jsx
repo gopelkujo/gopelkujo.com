@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
           </Link>
           <Link
             className={styles.menuResumeButton}
-            href="https://drive.google.com/file/d/18hrUG2XIj779LYCUDT-jYqg-ix97S9NQ/view?usp=share_link"
+            href="https://drive.google.com/file/d/1hJn-O6h3Rz2AVMOPr6UByiigioWkM8QW/view?usp=sharing"
             target="_blank"
           >
             Resume
